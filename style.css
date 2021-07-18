@@ -1,3 +1,9 @@
+/**fonts**/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/**main**/
+
 * {
     margin: 0;
     padding: 0;
@@ -263,7 +269,7 @@
   
   .fotter-icon {
     display: inline-block;
-    margin-left: 50%;
+    margin-left: 25%;
     transform: translate(-50%);
   }
   
@@ -311,6 +317,7 @@
     color: #fff;
     background-color: #ff0000;
   }
+
 
 
   /** for mobile**/
@@ -400,6 +407,82 @@
 
 
   }
+
+
+
+  /**for tablet**/
+
+  @media only screen and (max-width:992px)
+  {
+      .container{
+          width: 100%;
+      }
+
+      .header{
+          height: 600px;
+          background-color: darkblue;
+      }
+
+      .nav-bar{
+          padding: 40px 20px;
+      }
+
+      .nav-link ul li
+      {
+          padding: 0 10px;
+      }
+
+      .header-info{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          margin: 50px 60px;
+      }
+
+      .half-width{
+          width: 100%;
+      }
+
+      .half-width h1
+      {
+          color: #fff;
+          font-size: 40px;
+      }
+
+      .half-width img 
+      {
+          width: 350px;
+      }
+
+      .player, .highlight
+      {
+          position: relative;
+          grid-template-columns: repeat(2, 1fr);
+          grid-row-gap: 30px;
+          margin: 0 auto;
+      }
+
+      .fotter-logo{
+          width: 100%;
+      }
+
+      .copyright{
+          font-size: 30px;
+          margin: 10px 0;
+      }
+
+      .fotter-icon .fab
+      {
+          width: 15px;
+          height: 15px;
+          font-size: 15px;
+          margin: 0 10px 20px;
+          padding: 15px;
+      }
+
+    
+  }
+
+
 
   /**small devise**/
 
